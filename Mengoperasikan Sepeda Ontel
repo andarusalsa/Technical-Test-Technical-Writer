@@ -1,1 +1,47 @@
 #**Pseudocode Mengoperasikan Sepeda Ontel**
+
+##**DECLARE**
+DECLARE integer aksi;
+
+##**IMPLEMENTATION**
+PRINT 
+  "Pilih Aksi : 
+  1. Anda belum memiliki sepeda dan ingin membelinya
+  2. Anda belum memiliki sepeda dan ingin menyewa
+  2. Anda sudah memiliki sepeda";
+INPUT (aksi);
+
+IF aksi = 1
+  PRINT 
+    "1. Anda dapat membeli sepeda ontel pastikan duit anda cukup
+     2. Cari ruang yang cukup untuk sepeda anda beroperasi
+     3. Pastikan anda dapat mengkondisikan tubuh anda seimbang
+     4. Kayuh sepeda bergantian kanan dan kiri
+     5. Sekarang anda dapat mengoperasikan sepeda ontel";
+IF aksi = 2
+  PRINT
+    "1. Kunjungi tempat penyewaan sepeda
+     2. Sewa sepeda dan pilihlah waktu yang cukup untuk anda
+     3. Cari ruang yang cukup untuk sepeda anda beroperasi
+     3. Pastikan anda dapat mengkondisikan tubuh anda seimbang
+     4. Kayuh sepeda bergantian kanan dan kiri
+     5. Sekarang anda dapat mengoperasikan sepeda ontel
+     6. Jangan lupa mengembalikan dan membayar sepeda yang telah kamu sewa";
+IF aksi = 3
+  PRINT
+    "1. Anda dapat mengambil sepeda ontel anda
+     2. Cari ruang yang cukup untuk sepeda anda beroperasi
+     3. Pastikan anda dapat mengkondisikan tubuh anda seimbang
+     4. Kayuh sepeda bergantian kanan dan kiri
+     5. Sekarang anda dapat mengoperasikan sepeda ontel";
+ELSE
+  PRINT "Silahkan pilih aksi 1-3";
+IF END
+
+##**Diagram Alir Mengoperasikan Sepeda Ontel**
+```Operasi Sepeda Ontel
+graph TD;
+Start --> int aksi;
+input (aksi) --> If aksi =1;
+C --> G;
+
