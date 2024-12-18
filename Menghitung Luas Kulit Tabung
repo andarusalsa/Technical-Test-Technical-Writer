@@ -1,0 +1,17 @@
+#**Menghitung Luas Kulit Tabung**
+
+##**Declare**
+DECLARE float phi, j, t, luastabung;
+DECLARE phi = 3.14;
+
+##**Implementation**
+PRINT "Menghitung Luas Kulit Tabung"
+PRINT "Masukkan jari-jari : ";
+INPUT (r);
+PRINT "Masukkan tinggi : ";
+INPUT (t);
+SET luastabung = 2 * phi * r * (r+t);
+PRINT "Luas Kulit Tabung = " (luastabung);
+
+#End Of PseudoCode
+
